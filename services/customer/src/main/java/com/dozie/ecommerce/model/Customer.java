@@ -1,4 +1,4 @@
-package com.dozie.ecommerce.customer;
+package com.dozie.ecommerce.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

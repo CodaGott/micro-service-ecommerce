@@ -1,6 +1,6 @@
 package com.dozie.ecommerce.dto.response;
 
-import com.dozie.ecommerce.customer.Address;
+import com.dozie.ecommerce.model.Address;
 
 public record CustomerResponse (
         String id,

@@ -1,6 +1,6 @@
 package com.dozie.ecommerce.service.mapper;
 
-import com.dozie.ecommerce.customer.Customer;
+import com.dozie.ecommerce.model.Customer;
 import com.dozie.ecommerce.dto.CustomerRequest;
 import com.dozie.ecommerce.dto.response.CustomerResponse;
 import org.springframework.stereotype.Service;

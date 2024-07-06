@@ -21,7 +21,7 @@ public class GlobalExceptionHandler {
                 .body(ex.getMessage());
     }
 
-    @ExceptionHandler(CustomerNotFoundException.class)
+    @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<ErrorResponse> handleCustomerNotFoundException(MethodArgumentNotValidException ex) {
         var errors = new HashMap<String,String>();
         ex.getBindingResult().getAllErrors().forEach(error -> {

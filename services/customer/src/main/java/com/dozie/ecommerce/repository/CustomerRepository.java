@@ -1,6 +1,6 @@
 package com.dozie.ecommerce.repository;
 
-import com.dozie.ecommerce.customer.Customer;
+import com.dozie.ecommerce.model.Customer;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

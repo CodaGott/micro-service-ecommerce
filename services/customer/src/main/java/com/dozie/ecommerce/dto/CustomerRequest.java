@@ -1,13 +1,12 @@
 package com.dozie.ecommerce.dto;
 
-import com.dozie.ecommerce.customer.Address;
+import com.dozie.ecommerce.model.Address;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
 import lombok.Builder;
 import lombok.Data;
 
 @Builder
-@Data
 public record CustomerRequest(
         String id,
         @NotNull(message = "Customer first name is required")

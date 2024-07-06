@@ -1,6 +1,6 @@
 package com.dozie.ecommerce.service;
 
-import com.dozie.ecommerce.customer.Customer;
+import com.dozie.ecommerce.model.Customer;
 import com.dozie.ecommerce.dto.CustomerRequest;
 import com.dozie.ecommerce.dto.response.CustomerResponse;
 import com.dozie.ecommerce.exception.CustomerNotFoundException;
@@ -11,7 +11,6 @@ import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import static java.lang.String.format;
