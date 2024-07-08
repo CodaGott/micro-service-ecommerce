@@ -1,4 +1,12 @@
 package com.dozie.ecommerce.dto;
 
-public record ProductPurchaseResponse() {
+import java.math.BigDecimal;
+
+public record ProductPurchaseResponse(
+        Integer productId,
+        String name,
+        String description,
+        BigDecimal price,
+        Double quantity
+) {
 }
